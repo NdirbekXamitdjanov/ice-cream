@@ -33,12 +33,9 @@ a {
 }
 
 .btn:hover {
-    opacity: 70%;
-    margin-top: 5px;
-    position: relative;
-}
-
-.btn:focus {
+  opacity: 70%;
+  margin-top: 5px;
+  position: relative;
 }
 
 /* ==================== main code =================== */
@@ -105,4 +102,44 @@ header {
 
 .home__section--right img {
   width: 100%;
+}
+
+/* ============= header ================ */
+
+#option {
+  padding: 100px 0;
+}
+
+#option .container {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 33px 26px;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.cards--item__title {
+  font-family: "Hind Madurai";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.6px;
+}
+
+.cards--item__desc {
+  text-align: center;
+  font-family: "Hind Madurai";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.32px;
 }
