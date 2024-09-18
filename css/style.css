@@ -1,0 +1,108 @@
+:root {
+  --red-bg-light: rgba(210, 49, 102, 1);
+  --text-color: rgb(38, 24, 25);
+  --text-light: rgb(110, 96, 98);
+  --bg-pink-light: rgb(252, 242, 245);
+  --color-a: rgb(115, 98, 100);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* outline: 3px solid red; */
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--bg-a);
+}
+
+.btn {
+  padding: 13px 50px;
+  background-color: var(--red-bg-light);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.btn:hover {
+    opacity: 70%;
+    margin-top: 5px;
+    position: relative;
+}
+
+.btn:focus {
+}
+
+/* ==================== main code =================== */
+
+header {
+  background-color: var(--bg-pink-light);
+}
+
+.container {
+  width: 74%;
+  margin: auto;
+}
+
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .nav__ul {
+  display: flex;
+  gap: 2.5em;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__section--left {
+  width: 47vw;
+}
+
+.home--title {
+  font-family: "Fredoka";
+  font-size: 57.33px;
+  font-weight: 700;
+  line-height: 69.08px;
+  text-align: left;
+  margin-bottom: 35px;
+  margin-top: 6px;
+}
+
+.home--title span {
+  color: var(--red-bg-light);
+}
+
+.sub--title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.1em;
+}
+
+.desc {
+  font-family: Hind Madurai;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--text-light);
+}
+
+.home__section--right img {
+  width: 100%;
+}
