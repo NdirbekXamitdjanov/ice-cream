@@ -155,7 +155,7 @@ header {
   gap: 130px;
 }
 .sugar-left {
-    width: 442px;
+  width: 442px;
 }
 .sugar-left__title {
   font-family: Hind Madurai;
@@ -170,4 +170,148 @@ header {
   font-weight: 400;
   line-height: 24px;
   padding: 16px 0 35px 0;
+}
+
+/* =========== sugar section finished ============== */
+#product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 137px 0 149px 0;
+  flex-direction: column;
+}
+.product__title {
+  font-family: Hind Madurai;
+  font-size: 44.2px;
+  font-weight: 600;
+  line-height: 61px;
+  color: var(--text-color);
+  margin-left: 430px;
+}
+.product__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+.nav--item {
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s linear;
+}
+.nav--item:hover {
+  border-color: var(--red-bg-light);
+}
+.product__cards--item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 85px;
+}
+
+.two {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.product__secition--title {
+  font-family: Hind Madurai;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 35.88px;
+  color: var(--text-color);
+}
+.product__section--desc {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 28px;
+}
+
+.price {
+  font-family: Hind Madurai;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 35.88px;
+}
+
+.price del {
+  font-family: Hind Madurai;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27.6px;
+  color: rgba(0, 0, 0, 1);
+  opacity: 70%;
+}
+
+.product__btn {
+  margin-top: 25px;
+}
+
+.profCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 112px;
+}
+.pr {
+  display: flex;
+  gap: 11px;
+}
+.testimonial {
+  max-width: 50%;
+}
+.testimonial img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.testimonial h3 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+}
+.testimonial p {
+  margin: 5px 0;
+  color: #888;
+  font-size: 14px;
+}
+.testimonial .quote {
+  color: #ff6600;
+  font-size: 24px;
+  margin: 20px 0;
+}
+.testimonial .quote-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+  opacity: 70%;
+  margin-top: 50px;
+  margin-bottom: 56px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.navigation img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.navigation .active {
+  border: 2px solid #ff6600;
+  padding: 2px;
+}
+.navigation .arrow {
+  font-size: 20px;
+  color: #888;
+  cursor: pointer;
+}
+.image-section img {
+  max-width: 100%;
+  height: auto;
 }
